@@ -1,0 +1,127 @@
+body {
+
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#header {
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+    box-sizing: border-box;
+}
+.header-all:first-child {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: #030722;
+}
+.header-all:last-child {
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    height: 120px;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+}
+.infos-elements{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 12px 30px;
+}
+
+.infos-elements img {
+    width: 30px;
+    margin: 0 10px;
+}
+.infos-elements .i {
+    width: 20px;
+}
+.nav-all ul {
+    list-style-type: none;
+}
+.nav-all ul li{
+    display: inline-block;
+    margin: 12px 20px;
+}
+.nav-all ul li a {
+    text-decoration: none;
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #000523;
+    font-weight: bolder;
+}
+.nav-all ul li:first-child a {
+    color: #F0AB00;
+}
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 160px;
+    width: 100%;
+    justify-content: center;
+    
+}
+.slide {
+    width: 100%;
+    height: 400px;
+}
+
+.contact-us {
+    position: relative;
+    top: 650px;
+    display: grid;
+    grid-template-columns: 600px 600px;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    gap: 40px;
+    height: 300px;
+    /* border: 1px solid black; */
+} 
+.contenu {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contenu h3 {
+    font-size: 60px;
+    font-weight: bolder;
+}
+.contenu p {
+    font-size: 20px;
+    margin: 30px 0;
+}
+.contenu:first-child *:first-child {
+    align-self: start;
+}
+
+footer {
+    position: relative;
+    top: 700px;
+    height: 300px;
+    width: 100%;
+}
+footer h1 {
+    background-image: url(images/slide2.png);
+    opacity: 0.6;
+    height: 300px;
+    text-align: center;
+    margin-top: 90px;
+    padding-top: 90px;
+    font-size: 60px;
+    color: white;
+}
